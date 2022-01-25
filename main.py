@@ -3,11 +3,11 @@ from gesture_control import GestureControl
 from multiprocessing import Process, Pipe
 
 def camera(conn):
-  camera_instance = CameraCapture(0, 0,7, 0)
+  camera_instance = CameraCapture(0, 0.7, 0.1)
   camera_instance.streaming(conn)
 
 def gesture(conn):
-  gesture_instance = GestureControl()
+  gesture_instance = GestureControl(1000, 300)
   gesture_instance.commanding(conn)
 
 
