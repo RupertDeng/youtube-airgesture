@@ -28,5 +28,6 @@
 - Start the app with `python main.py`, after the camera window shows up, mouse click on browser youtube page for standby.
 - Play with the provided gesture mapping. Terminate the app by press 'q' on the camera window.
 - You may need to adjust the finger gesture threshold for your hands.
+<br/>
 
-_After thoughts: the mediapipe library is so much fun. Just with the hand detection capability, one can also make an useful app to capture guitar chord from youtube videos. Might need some other ML tools to detect the guitar fretboard layout, but it should be do-able. :-) _
+_After thoughts: the mediapipe library is so much fun. Just with the hand detection capability, one can also make an useful app to capture guitar chord from youtube videos. Might need some other ML tools to detect the guitar fretboard layout, but it should be do-able._
